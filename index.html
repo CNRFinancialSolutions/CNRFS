@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans">
+<body class="bg-slate-50 text-slate-800 font-sans pb-16 md:pb-0">
 
     <header class="bg-white shadow-xs sticky top-0 z-50 border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-32 flex items-center justify-between p-1">
@@ -34,6 +34,22 @@
             </div>
         </div>
     </header>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 shadow-lg z-50 flex justify-around items-center h-16 px-2">
+        <a href="#process" class="flex flex-col items-center justify-center text-slate-500 hover:text-blue-600 transition text-xs font-medium w-full">
+            <i class="fa-solid fa-arrow-trend-up text-lg mb-1"></i>
+            <span>How It Works</span>
+        </a>
+        <a href="debt-review.html" class="flex flex-col items-center justify-center text-blue-600 transition text-xs font-semibold w-full border-x border-slate-100">
+            <i class="fa-solid fa-hand-holding-dollar text-lg mb-1 text-blue-500"></i>
+            <span>Debt Counselling</span>
+        </a>
+        <a href="#contact" class="flex flex-col items-center justify-center text-slate-500 hover:text-blue-600 transition text-xs font-medium w-full">
+            <i class="fa-solid fa-user-check text-lg mb-1"></i>
+            <span>Clear Name</span>
+        </a>
+    </div>
 
     <section class="bg-gradient-to-br from-slate-900 to-blue-950 text-white py-16 lg:py-24">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
